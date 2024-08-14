@@ -1,0 +1,27 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+:root {
+  --black: hsl(0, 0%, 0%);
+  --golden: hsl(48, 89%, 50%);
+  --orange: hsl(39, 100%, 50%);
+  --black-eel: hsl(0, 0%, 27%);
+  --light-grey: hsl(0, 0%, 87%);
+  --soft-peach: hsl(0, 0%, 93%);
+  --darkorange: hsl(33, 100%, 50%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
